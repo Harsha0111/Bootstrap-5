@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap v5.1.3 CDNs -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- button -->
+      <!--  data-bs-toggle="modal" : link button and modal -->
+      <!-- data-bs-target="#modal" : selector that selects the modal while clicking btn  -->
+      <button
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#modal"
+      >
+        Open
+      </button>
+      <div class="modal fade" id="modal">
+        <!-- full screen: by adding this in class : modal-fullscreen -->
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1>Header</h1>
+            </div>
+
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              alias aliquid, maxime asperiores facere amet accusantium, tempora
+              dicta quaerat vel doloremque repellat labore minima quae dolor nam
+              pariatur nihil iusto delectus quas. Dolorem explicabo harum iure
+              adipisci dignissimos, nobis et eligendi deserunt odio maiores
+              sequi fugit similique blanditiis quisquam tempore quam. Doloribus
+              dignissimos impedit inventore voluptatum possimus voluptas
+              pariatur quas rerum at quae? Modi doloremque eos sint perspiciatis
+              pariatur neque vero. Officiis dolorum itaque impedit quisquam,
+              molestias error aliquam expedita veritatis natus aliquid ipsam
+              beatae provident, molestiae deleniti temporibus unde eum autem
+              vel, velit ab! Nulla, est dolor rerum iusto pariatur sapiente illo
+              neque. Impedit doloremque possimus error, ullam dolorum
+              necessitatibus reprehenderit atque? Doloremque necessitatibus
+              commodi quo facere. Temporibus quo quis omnis ratione tempore
+              nesciunt, nostrum facere magnam provident, natus quia pariatur
+              consectetur autem! Tenetur quod aperiam voluptatum ratione modi
+              laborum voluptatem sapiente, minus aut minima dicta dolores in
+              tempora temporibus veritatis eos alias mollitia sit eius ea
+              nesciunt ex, quis cumque. Soluta ratione suscipit blanditiis
+             
+            </div>
+
+            <div class="modal-footer">
+              <!-- button to close -->
+              <!-- data-bs-dismiss="modal" is to close modal -->
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal dialog cntere -->
+    </div>
+  </body>
+</html>
